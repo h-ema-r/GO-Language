@@ -22,10 +22,14 @@ In Go, variables can hold different types of data. Some of the common variable t
 
 ### Two ways to declare a variable
 - with 'var' keyword:
-```var variablename type = value
+```
+var variablename type = value
+
 ```
 - with := sign:
-```variablename := value
+```
+variablename := value
+
 ```
 
 
