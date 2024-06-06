@@ -6,6 +6,12 @@ Go is a statically compiled high-level programming language. It is commonly used
 
 Go, also known as Golang, is a powerful programming language developed by Google. It is designed for simplicity, efficiency, and ease of use. With its built-in concurrency support and robust standard library, Go is well-suited for developing a wide range of applications, from web servers to system utilities.
 
+## Command to run go program
+```
+go run main.py
+
+```
+
 ## Go Comments
 Go supports single-line or multi-line comments.These will be ignored by compiler.
 - Single-line comments start with two forward slashes (//).
