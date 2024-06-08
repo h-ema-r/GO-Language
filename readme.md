@@ -53,4 +53,33 @@ Here we will use two formatting verbs:
 - %%	Prints the % sign
 
 
+## Go has three basic data types:
 
+- bool: represents a boolean value and is either true or false
+- Numeric: represents integer types, floating point values, and complex types
+- string: represents a string value
+
+
+## Go Arrays
+- Arrays are used to store multiple values of the same type in a single variable, instead of declaring separate variables for each value.
+
+- Declare an Array
+- - with the **var** keyword
+'''
+var array_name = [length]datatype{values} // here length is defined
+
+or
+
+var array_name = [...]datatype{values} // here length is inferred
+
+'''
+
+- - with := sign language
+'''
+array_name := [length]datatype{values} // here length is defined
+
+or
+
+array_name := [...]datatype{values} // here length is inferred
+'''
+**Note:** The length specifies the number of elements to store in the array. In Go, arrays have a fixed length. The length of the array is either defined by a number or is inferred (means that the compiler decides the length of the array, based on the number of values).
