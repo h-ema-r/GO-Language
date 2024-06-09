@@ -83,3 +83,35 @@ or
 array_name := [...]datatype{values} // here length is inferred
 '''
 **Note:** The length specifies the number of elements to store in the array. In Go, arrays have a fixed length. The length of the array is either defined by a number or is inferred (means that the compiler decides the length of the array, based on the number of values).
+
+## Go Slices:
+In Go, there are several ways to create a slice:
+
+- Using the []datatype{values} format
+```
+slice_name := []datatype{values}
+e.g 
+myslice := []int{}
+
+```
+
+- Create a slice from an array
+```
+var myarray = [length]datatype{values} // An array
+myslice := myarray[start:end] // A slice made from the array
+
+```
+
+- Using the make() function
+```
+slice_name := make([]type, length, capacity)
+// Note: If the capacity parameter is not defined, it will be equal to length.
+
+```
+
+
+**In Go, there are two functions that can be used to return the length and capacity of a slice:**
+
+**- len() function** - returns the length of the slice (the number of elements in the slice)
+**- cap() function** - returns the capacity of the slice (the number of elements the slice can grow or shrink to)
+
