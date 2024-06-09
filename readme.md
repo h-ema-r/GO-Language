@@ -65,23 +65,26 @@ Here we will use two formatting verbs:
 
 - Declare an Array
 - - with the **var** keyword
-'''
+
+```
 var array_name = [length]datatype{values} // here length is defined
 
 or
 
 var array_name = [...]datatype{values} // here length is inferred
 
-'''
+```
 
 - - with := sign language
-'''
+```
 array_name := [length]datatype{values} // here length is defined
 
 or
 
 array_name := [...]datatype{values} // here length is inferred
-'''
+
+```
+
 **Note:** The length specifies the number of elements to store in the array. In Go, arrays have a fixed length. The length of the array is either defined by a number or is inferred (means that the compiler decides the length of the array, based on the number of values).
 
 ## Go Slices:
@@ -112,6 +115,6 @@ slice_name := make([]type, length, capacity)
 
 **In Go, there are two functions that can be used to return the length and capacity of a slice:**
 
-**- len() function** - returns the length of the slice (the number of elements in the slice)
+**- len() function** - returns the length of the slice (the number of elements in the slice)<br>
 **- cap() function** - returns the capacity of the slice (the number of elements the slice can grow or shrink to)
 
