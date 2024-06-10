@@ -118,3 +118,31 @@ slice_name := make([]type, length, capacity)
 **- len() function** - returns the length of the slice (the number of elements in the slice)<br>
 **- cap() function** - returns the capacity of the slice (the number of elements the slice can grow or shrink to)
 
+
+## Operators
+
+### 1. Airthmetic Operators
+ **'+', '-','*','/','%','++','--'**
+
+ ### 2. Assignment Operators
+ **'=','+=','-=','*=','/=','%=','&=','|=','^=','>>=','<<='**
+
+ ### 3. Comparison Operator
+  **'==', '!=','>','<','>=','<='**
+
+  ### 4. Logical Operator
+  **'&&','||','!'**
+
+  ### 5. Go-Bitwise Operators
+  **'&','|','^','<<','>>'**
+
+  ## Go Conditions
+  - if 
+  - else
+  - else if 
+  - switch
+  <br>
+ **NOTE:** 
+ - Use the switch statement to select one of many code blocks to be executed.
+
+- The switch statement in Go is similar to the ones in C, C++, Java, JavaScript, and PHP. The difference is that it only runs the matched case so it does not need a break statement.
