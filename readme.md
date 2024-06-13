@@ -146,3 +146,44 @@ slice_name := make([]type, length, capacity)
  - Use the switch statement to select one of many code blocks to be executed.
 
 - The switch statement in Go is similar to the ones in C, C++, Java, JavaScript, and PHP. The difference is that it only runs the matched case so it does not need a break statement.
+
+
+## Go Struct
+- A struct (short for structure) is used to create a collection of members of different data types, into a single variable.
+
+- While arrays are used to store multiple values of the same data type into a single variable, structs are used to store multiple values of different data types into a single variable.
+
+- A struct can be useful for grouping data together to create records.
+
+- Declare a struct 
+ To declare a structure in Go, use the type and struct keywords:
+
+
+ ```
+type Person struct {
+  name string
+  age int
+  job string
+  salary int
+}
+```
+
+## Go Maps
+- Maps are used to store data values in key:value pairs.
+- Each element in a map is a key:value pair.
+- A map is an unordered and changeable collection that does not allow duplicates.
+- The length of a map is the number of its elements. You can find it using the len() function.
+- Syntax
+- 1. Create Maps Using var and :=
+ ``` 
+var a = map[KeyType]ValueType{key1:value1, key2:value2,...}
+b := map[KeyType]ValueType{key1:value1, key2:value2,...}
+```
+- 2. Create Maps Using make()Function:
+ 
+ ```
+var a = make(map[KeyType]ValueType)
+b := make(map[KeyType]ValueType)
+```
+ 
+ 
