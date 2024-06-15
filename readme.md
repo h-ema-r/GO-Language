@@ -131,7 +131,7 @@ slice_name := make([]type, length, capacity)
   **'==', '!=','>','<','>=','<='**
 
   ### 4. Logical Operator
-  **'&&','||','!'**
+  &&, ||, !
 
   ### 5. Go-Bitwise Operators
   **'&','|','^','<<','>>'**
