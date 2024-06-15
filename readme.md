@@ -122,7 +122,7 @@ slice_name := make([]type, length, capacity)
 ## Operators
 
 ### 1. Airthmetic Operators
- **'+', '-','*','/','%','++','--'**
+ '+', '-','*','/','%','++','--'
 
  ### 2. Assignment Operators
  **'=','+=','-=','*=','/=','%=','&=','|=','^=','>>=','<<='**
